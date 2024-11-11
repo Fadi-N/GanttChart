@@ -197,7 +197,7 @@ const Toolbar = () => {
             >
                 Documentation
             </Button>
-            <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="full">
+            <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="full" scrollBehavior="inside">
                 <ModalContent>
                     {(onClose) => (
                         <>
